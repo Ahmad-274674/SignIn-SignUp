@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("Contact Me.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.box-container-user{
+    display: flex;
+    position: relative;
+    width: 600px;
+    min-height: 400px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8),
+            inset 0px 0px 10px rgba(0, 0, 0, 0.6);
+    color: #ff00ff;
+    overflow: hidden;
+
+}
+
+.loginArea{
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    transition: all 0.5s;
+}
+
+.sinupArea{
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    left: 800px;
+    transition: all 0.5s;
+}
+
+.btns{
+    display: flex;
+    position: relative;
+    background: white;
+    width: 80%;
+    height: 50px;
+    padding: 10px 0px;
+    border-radius: 5px;
+    margin: 20px auto;
+    z-index: 1;
+}
+
+#btn-hover-spam{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(#0079fc, #0052aa);
+    width: 50%;
+    height: 100%;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+
+.btn-navi{
+    width: 100%;
+}
+
+.btn-navi button{
+    width: 45%;
+    height: 100%;
+    background: transparent;
+    z-index: 2;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.input-fields{
+    width: 70%;
+    margin: 10px auto;
+    padding: 10px;
+}
+.input-fields input{
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+
+.btn-area{
+    width: 65%;
+    margin: 5px auto;
+}
+
+#login{
+    background-color: #0079fc;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Pappins', sans-serif;
+    color: white;
+    cursor: pointer;
+    width: 50%;
+}
+
+#login:hover{
+    background-color: #0052aa;
+    transition: all 0.3s ease;
+    box-shadow: 0px 0px 40px #0079fc;
+}
+
+.registerMe{
+    background: #0052aa;
+    color: white;
+    padding: 10px;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.registerMe:hover{
+    background: #0079fc;
+    transition: all 0.4s ease-out;
+}
+
+.flex-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.flex-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.flex-sep{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.left-0{
+    left: 0;
+}
+
+.left-50{
+    left: 50%;
+}

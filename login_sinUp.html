@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login_sinUP.css">
+    <title>Login SinUp | Muhammad Ahmad</title>
+</head>
+<body onload="loginPage()">
+    <div class="box-container-user">
+        <div class="btns">
+            <div id="btn-hover-spam"></div>
+            <div class="btn-navi flex-sep">
+                <button type="button" class="btn-togle" id="login-btn">Login</button>
+                <button type="button" class="btn-togle" id="sinup-btn">SinUp</button>
+            </div>
+        </div>
+        <div class="loginArea">
+            <div class="input-fields flex-col">
+                <input type="email" placeholder="Enter you email address" required>
+                <input type="password" placeholder="Enter you password" equired>
+            </div>
+            <div class="btn-area flex-sep">
+                    <div class="checkBox">
+                        <input type="checkbox" id="checkMe">
+                        <label for="checkMe">Remember Me</label>
+                    </div>
+                <button id="login">Login</button>
+            </div>
+            <div class="registerMe flex-col" id="createMeIn">
+                <p>Not have a account? Register Me</p>
+            </div>
+        </div>
+        <div class="sinupArea">
+            <div class="input-fields flex-col">
+                <input type="text" placeholder="Enter you Name " required>
+                <input type="email" placeholder="Enter you email address" required>
+                <input type="password" placeholder="Enter you password" equired>
+            </div>
+            <div class="btn-area flex-sep">
+                    <div class="checkBox">
+                        <input type="checkbox" id="checkMe2">
+                        <label for="checkMe2">I'm 18+</label>
+                    </div>
+                <button id="login">SinUp</button>
+            </div>
+            <div class="registerMe flex-col" id="registerMeIn">
+                <p>I have a account? Login Me</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="login_sinUp.js"></script>
+</body>
+</html>
